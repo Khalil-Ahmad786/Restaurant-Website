@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  /* position: fixed !important; */
+  width: 100vw;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+.landing {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.main-heading {
+  height: 100%;
+  width: 100%;
+}
+.main-heading::before {
+  content: "\f805";
+  font-size: 200px;
+  font-family: "FontAwesome" !important;
+  color: rgb(216, 216, 216);
+}
+.gridSpace {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start {
+  justify-content: start;
+}
+.end {
+  justify-content: end;
+}
+
+.offerImage {
+  width: 500px;
+  height: auto;
+}
+
+.headingFont {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .gridSpace {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gridSpace .titleShift {
+    order: 5;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .gridSpace {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gridSpace .titleShift {
+    order: 5;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gridSpace {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gridSpace .titleShift {
+    order: 5;
+  }
+}
+
+
+.logo{
+  margin-left: 40%;
+ 
+}
+
+.logoimg{
+  border-radius:  50%;
+}
+
+
+#ffooter{
+  width: 100%;
+  height: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+  text-align: center;
+  background-color: black;
+  color: white;
+ 
+}
+
+.butn{
+ 
+  background-color: #d1d1d1;
+  width: 25%;
+  border-color: #d1d1d1;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+ 
+  font-size: 16px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 0.5em;
+  cursor: pointer;
+  
+}
+
+:hover.butn{
+  background-color: transparent;
+  color: #ff5100;
+  border-color: #ff5100;
+}
+
+.itemsbtn{
+  background-color: #c45420;
+  width: 233px;
+  height: 100px;
+  margin-left: 50%;
+  border-color: #d1d1d1;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+ 
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+
+:hover.itemsbtn{
+  background-color: #d1d1d1;
+  color: #000000;
+  border-color: #d1d1d1;
+}

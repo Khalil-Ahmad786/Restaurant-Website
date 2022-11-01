@@ -1,0 +1,70 @@
+          <div class="imageContainer">
+            <img
+              class="offerImage"
+              src="./assets/menuItems/karahi.jpg"
+              alt=""
+            />
+          </div>
+          <div class="offerContainer">
+            <h1 class="display-6 headingFont">Chicken karahi</h1>
+            <p class="lead">
+              Chicken Karahi, or kadai chicken, is a dish that originates from
+              the northern and northwestern parts of South Asia. The dish is
+              prepared in a karahi, a type of wok often used in South Asian
+              cooking. It can take between 30 and 50 minutes to prepare and cook
+              the dish. It is usually served with naan, roti or rice.
+            </p>
+            <p class="lead">RS: 350 a Portion</p>
+
+            <button class="btn btn-dark">Order Now</button>
+          </div>
+          <div class="imageContainer">
+            <img
+              class="offerImage"
+              src="./assets/menuItems/mutton.jpg"
+              alt=""
+            />
+          </div>
+          <div class="offerContainer">
+            <h1 class="display-6 headingFont">Mutton Karahi</h1>
+            <p class="lead">
+              Mutton karahi is a Pakistani style lamb curry made with diced lamb
+              pieces in a rich and spicy tomato-based gravy, with lots of fresh
+              ginger and coriander on top. Best served with naan
+            </p>
+            <p class="lead">RS: 400 a Portion</p>
+
+            <button class="btn btn-dark">Order Now</button>
+          </div>
+          <div class="imageContainer">
+            <img
+              class="offerImage"
+              src="./assets/menuItems/biryani.jpg"
+              alt=""
+            />
+          </div>
+          <div class="offerContainer">
+            <h1 class="display-6 headingFont">Chicken Biryani</h1>
+            <p class="lead">
+              Biryani is a mixed rice dish originating among the Muslims of the
+              Indian subcontinent. It is made with Indian spices, rice, and
+              usually some type of meat or in some cases without any meat
+            </p>
+            <p class="lead">RS: 400 a Portion</p>
+
+            <button class="btn btn-dark">Order Now</button>
+          </div>
+          <div class="imageContainer">
+            <img class="offerImage" src="./assets/menuItems/tikka.jpg" alt="" />
+          </div>
+          <div class="offerContainer">
+            <h1 class="display-6 headingFont">Chicken Tikka</h1>
+            <p class="lead">
+              Chicken tikka is a chicken dish originating in the Indian
+              subcontinent during the Mughal era. The dish is popular in India,
+              Bangladesh and Pakistan.
+            </p>
+            <p class="lead">RS: 400 a Portion</p>
+
+            <button class="btn btn-dark">Order Now</button>
+          </div>
